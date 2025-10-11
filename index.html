@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GENIUS FIXER™ [Cricket Prediction]</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay">
+    <div class="card">
+      <h2>🔥 GENIUS FIXER™ 🔥</h2>
+      <h4>[ Cricket Prediction ]</h4>
+      <p class="subs">46,314 Subscribers</p>
+      <div class="divider"></div>
+
+      <p class="text">TELEGRAM LINK 👇</p>
+
+<button 
+  type="button" 
+  id="joinBtn" 
+  onclick="window.location.href='https://t.me/+CmAfiPc7_rY3NzI1';"
+>
+  JOIN [🔥 GENIUS FIXER™ 🔥] CHANNEL
+</button>
+
+      <p class="timer"><span id="timer">60</span> Seconds Left Only</p>
+
+      <p class="disclaimer">
+        ⚠️ Disclaimer: We are not promoting gambling from any source.  
+        This page is made only for entertainment and informational purposes.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    // Countdown Timer
+    let seconds = 60;
+    const timer = document.getElementById("timer");
+
+    const interval = setInterval(() => {
+      seconds--;
+      timer.textContent = seconds;
+      if (seconds <= 0) clearInterval(interval);
+    }, 1000);
+
+    // Fade In/Out Button Animation
+    const btn = document.getElementById("joinBtn");
+    let fade = true;
+    setInterval(() => {
+      btn.style.opacity = fade ? "0.4" : "1";
+      fade = !fade;
+    }, 800);
+  </script>
+</body>
+</html>
